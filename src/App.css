@@ -1,8 +1,4 @@
-.box {
-  border: 1px solid black;
-  width: 500px;
 
-}
 
 .item-img{
   width: 400px;
@@ -12,3 +8,28 @@
   display:flex;
   justify-content: center;
 }
+
+.win {
+  border: 1px solid green;
+  width: 500px;
+  margin:10px;
+  display: grid;
+  place-items: center; 
+}
+
+.lose {
+  border: 1px solid red;
+  width: 500px;
+  margin:10px;
+  display: grid;
+  place-items: center; 
+}
+
+.tie {
+  border: 1px solid black;
+  width: 500px;
+  margin:10px;
+  display: grid;
+  place-items: center; 
+}
+
